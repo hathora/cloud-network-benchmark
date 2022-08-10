@@ -34,7 +34,7 @@ const { argv } = yargs(hideBin(process.argv))
   .option("output", {
     alias: "o",
     demandOption: false,
-    describe: "output filename",
+    describe: "if set, a csv of the raw data will be written to the provided filename",
     type: "string",
   });
 
