@@ -1,0 +1,26 @@
+{
+  "name": "cloud-network-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hathora/cloud-network-benchmark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hathora/cloud-network-benchmark/issues"
+  },
+  "homepage": "https://github.com/hathora/cloud-network-benchmark#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fast-stats": "^0.0.6",
+    "ws": "^8.8.1",
+    "yargs": "^17.5.1"
+  }
+}
